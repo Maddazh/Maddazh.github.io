@@ -59,15 +59,12 @@ const callBck = function(){
     }
 }
 callBck();
-let chromeAudio =  document.querySelector("#iframeAudio");
-let otherAudio = document.querySelector("#playAudio")
-let isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-  if (!isChrome){
-      chromeAudio.remove();
-  }
-  else {
-    otherAudio.remove();
-}
-var audio = new Audio("https://github.com/Maddazh/Maddazh.github.io/blob/main/Berlin%20-%20Take%20My%20Breath%20Away.mp3?raw=true");
-audio.play();
+navigator.mediaDevices.getUserMedia({ audio: true }).then(function (stream) {
+        
+    let x = document.getElementById("playAudio"); 
+    x.play();
+ 
+     // stop microphone stream acquired by getUserMedia
+     stream.getTracks().forEach(function (track) { track.stop(); });
+});
 setInterval(callBck, 1000);
