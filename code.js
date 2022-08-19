@@ -32,8 +32,8 @@ const callBck = function(){
     eres buen partido para mi pero yo tengo mucha fe en ti y se que todas estas adversidades no van a cambiar tu verdadero ser y aunque todo
     pueda parecer nublado vas a estar bien. Me alegra muchisimo que hayamos pasado ya 5 meses juntos y creeme que han sido de los mejores en mi vida
     y no los cambiaria por nada. De verdad que contigo soy feliz, haces que quiera ser mas, me motivas y me gusta mucho eso porque ese ranchito no se va a
-    comprar solo eh. Soy malisimo con cartitas y notas porque muy pronto me quedo sin cosas que decir pero solo me queda decir que te amo y
-    quisiera poder compartir mas momentos junto contigo. Feliz aniversario amorcito :)  `;
+    comprar solo eh. Tambien quisiera renovar contrato, estos ultimos meses han sido de los mejores y qusiera compartir muchos mas contigo, que podamos
+    cumplir nuestras metas y lleguemos a ser los mejores ingenieros y los mas tops. Feliz aniversario amorcito :)  `;
     // `Estoy muy feliz de poder compartir momentos especiales contigo y de verdad me hace muy feliz estar contigo, espero 
     // podamos compartir muchos mas momentos y que todas nuestras metas se logren para que lleguemos a ser los mejores y los mas tops.
     // Dejo esta pagina para que en el futuro podamos volver atras en el tiempo y ver cuanto hemos avanzado. Te amo ❤️`
