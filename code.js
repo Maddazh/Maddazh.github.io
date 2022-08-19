@@ -27,7 +27,7 @@ const callBck = function(){
     let titleText = totalYears >= 1 ? `Felices ${totalYears} anhos ${yearMonths} meses amorcito :)`: `Felices ${monthsPassed + 1} meses amorcito :)`;
     let paraText1 = `Antes que nada esta pagina la empece desde el mes pasado pero tuve un bloqueo creativo y no se 
     me ocurrio agregarle nada mas. Mi plan, originalmente, era ensenarte la pagina mucho antes. Planeaba que llegando de mi viaje quedara lista pero para cuando la termine ya
-    habian pasado varios dias y pense mejor esperar a los 5 meses asi que felices ${monthsPassed + 1} meses amorcito, te amo ❤️`;
+    habian pasado varios dias y pense mejor esperar un poco mas y aqui esta, asi que felices ${monthsPassed + 1} meses amorcito, te amo ❤️`;
     let paraText2 = `De verdad estoy muy feliz de poder compartir todos estos momentos contigo, se que has pasado por muchas cosas y que dudas de si 
     eres buen partido para mi pero yo tengo mucha fe en ti y se que todas estas adversidades no van a cambiar tu verdadero ser y aunque todo
     pueda parecer nublado vas a estar bien. Me alegra muchisimo que hayamos pasado ya 5 meses juntos y creeme que han sido de los mejores en mi vida
