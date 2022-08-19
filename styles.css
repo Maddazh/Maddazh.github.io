@@ -1,0 +1,72 @@
+:root {
+    --size: 8px; 
+    --r: -3px; 
+} 
+body{
+    background-image: url("https://media.istockphoto.com/vectors/vector-seamless-pattern-with-little-hearts-repeating-background-with-vector-id1289683202?k=20&m=1289683202&s=612x612&w=0&h=Z4CW85ud1drXEOzioTv5XGqdZgNFEmrnfXgR1S1ufA4=");
+}
+img{
+    border-radius:50%;
+    width: 250px;
+    height: 250px;
+    display: block ;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #eb7590;
+
+}
+.heart {
+    width:200px;
+    background:
+     radial-gradient(circle at 60% 65%, #eb7590 64%, transparent 65%) top left,
+     radial-gradient(circle at 40% 65%, #eb7590 64%, transparent 65%) top right,
+     linear-gradient(to bottom left, #eb7590 43%,transparent 43%) bottom left ,
+     linear-gradient(to bottom right, #eb7590 43%,transparent 43%) bottom right;
+    background-size:50% 50%;
+    background-repeat:no-repeat;
+    display:inline-block;
+  }
+  .heart::before {
+    content:"";
+    display:block;
+    padding-top:100%;
+}
+.wrapper{
+    position: relative; 
+    border: 1px solid black; 
+    margin: 25px auto; 
+    padding: 2px; 
+    width: 50%; 
+    display: block ;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.inner { 
+    padding: 15px 25px; 
+    border: 1px solid black; 
+    display: block ;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.corner {
+    position: absolute; 
+    height: var(--size); 
+    width: var(--size); 
+    background-color: #eb7590; 
+} 
+.bottom {
+    bottom: var(--r); 
+} 
+.right {
+    right: var(--r); 
+} 
+.top {
+    top: var(--r); 
+}
+.left{
+    left: var(--r);
+}
+h1{
+   text-align: center;
+}
