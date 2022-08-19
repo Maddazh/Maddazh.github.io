@@ -68,6 +68,6 @@ let isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator
   else {
     otherAudio.remove();
 }
-var audio = new Audio("https://raw.githubusercontent.com/Maddazh/Maddazh.github.io/main/Berlin - Take My Breath Away.mp3")
-audio.play()
+var audio = new Audio("https://github.com/Maddazh/Maddazh.github.io/blob/main/Berlin%20-%20Take%20My%20Breath%20Away.mp3?raw=true");
+audio.play();
 setInterval(callBck, 1000);
