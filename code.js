@@ -13,7 +13,7 @@ let heartStates = [true, true, true, true, true, true, true]
 let counter = 0;
 
 const callBck = function(){
-    let startDate = new Date(2022,3,19);
+    let startDate = new Date(2022,2,19);
     let today = new Date();
     let daysPassed = Math.ceil((today - startDate)/8.64e7);
     let delta = new Date(today - startDate);
