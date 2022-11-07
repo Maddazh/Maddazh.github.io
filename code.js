@@ -17,7 +17,9 @@ const callBck = function(){
     let today = new Date();
     let daysPassed = Math.ceil((today - startDate)/8.64e7);
     let delta = new Date(today - startDate);
-    let monthsPassed = today.getMonth() - startDate.getMonth() + (12 * (today.getFullYear() - startDate.getFullYear())); 
+    let monthsPassed = monthDiff(startDate, today);
+    monthsPassed = today.getDate() === 19 ? monthsPassed: monthsPassed - 1;
+    //let monthsPassed = today.getMonth() - startDate.getMonth() + (12 * (today.getFullYear() - startDate.getFullYear())); 
     let hoursPassed = delta.getHours();
     let minutesPassed = delta.getMinutes();
     let secondsPassed = delta.getSeconds();
@@ -59,6 +61,14 @@ const callBck = function(){
     }
 }
 callBck();
+
+function monthDiff(d1, d2) {
+    var months;
+    months = (d2.getFullYear() - d1.getFullYear()) * 12;
+    months -= d1.getMonth();
+    months += d2.getMonth();
+    return months <= 0 ? 0 : months;
+}
 navigator.mediaDevices.getUserMedia({ audio: true }).then(function (stream) {
         
     let x = document.getElementById("playAudio"); 
